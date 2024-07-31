@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: #d2cbcbdd;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 12%;
+    width: 100%;
+    /* background-color: rebeccapurple; */
+    padding: 0px 20px;
+    padding-right: 30px;
+    gap: 30px;
+}
+
+.hove a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: cursive;
+    color: black;
+    font-weight: 600;
+}
+
+#nav i {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.hove:hover a {
+    text-decoration: underline;
+}
+
+#center {
+    /* background-color: skyblue; */
+    height: 57%;
+    width: 100%;
+    padding: 10px;
+    padding-left: 80px;
+    /* background-color: pink; */
+}
+
+#center h1 {
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#center-in {
+    /* background-color: #9f5454; */
+    height: 42%;
+    width: 100%;
+    padding: 10px 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#center-in p {
+    /* background-color: #2d2222; */
+    font-size: 18px;
+    width: 40%;
+    font-weight: 500;
+    font-family: cursive;
+    line-height: 25px;
+}
+
+#right {
+    width: 20%;
+    /* background-color:yellow; */
+    padding-right: 30px;
+}
+
+.hovers {
+    padding: 10px 0;
+    /* background-color: red; */
+    margin: 2px;
+    border-top: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hovers a {
+    font-family: cursive;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.hovers i {
+    color: black;
+    /* background-color: skyblue; */
+    font-size: 20px;
+    font-weight: 400;
+    opacity: 0;
+}
+
+.hovers:hover i {
+    opacity: 1;
+}
+
+.hovers:hover {
+    text-decoration: underline;
+    background-color: rgb(191, 189, 189);
+}
+
+#bottom {
+    width: 100%;
+    height: 31%;
+    background-color: rgb(194, 60, 82);
+    background-image: url(https://media.istockphoto.com/id/621499082/photo/man-standing-in-street-wearing-denim-portrait.jpg?s=1024x1024&w=is&k=20&c=tfQhY1wfNRfJm_5E63T1MFUlRelDfQp0v1OESOLGK6c=);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 10%;
+}
